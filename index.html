@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Cinema</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/header-logo.png">
+    <link rel="stylesheet" href="style/main.css">
+
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__info">
+                <i class="header__info-icon fa-solid fa-film"></i>
+                <p class="header__info-desc">See no special offer restrictions</p>
+            </div>
+            <nav class="header__nav">
+                <div class="container header__nav-content">
+                    <a href="#" class="header__nav-logo">
+                        <img src="img/header-logo.png" alt="">
+                        <span class="header__nav-span">CINEMAS</span>
+                    </a>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Films</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Serials</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Cartoons</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Collections</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__content">
+                <img src="img/kong_skull_island 1.jpg" alt="" class="header__content-img1">
+                <img src="img/header-pic.png" alt="" class="header__content-img2">
+                <div class="header__block">
+                    <h1 class="header__block-title">Kong: Skull Island</h1>
+                    <p class="header__block-desc">The film takes the viewer to the 70s of the last century. The
+                        protagonist organizes an expedition to the Skull island,
+                        always covered in fog, on which King Kong was once caught to find the missing brother and some
+                        mysterious substance.
+                        During...</p>
+                    <div class="header__block-btns">
+                        <a href="#" class="header__block-btn">Watch now</a>
+                        <a href="#" class="header__block-btn">Download</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="films">
+                <div class="container">
+                    <h2 class="films__title">Films</h2>
+                    <div class="films__cards">
+                        <div class="films__card">
+                            <i class="fa-solid fa-play"></i>
+                            <span class="films__span">2:14:33</span>
+                            <h3 class="films__info">Black Panther</h3>
+                            <p class="films__desc">At first glance, you can decide that Wakanda is an ordinary territory
+                                of wild Africa, but this is not so. Here, in the
+                                bowels of the desert lands, there are hidden deposits of a unique metal capable of
+                                absorbing...</p>
+                        </div>
+                        <div class="films__card card2">
+                            <i class="fa-solid fa-play"></i>
+                            <span class="films__span">2:32:13</span>
+                            <h3 class="films__info">The Dark Knight</h3>
+                            <p class="films__desc">Batman raises stakes in the war on crime. With the help of Lieutenant
+                                Jim Gordon and Attorney Harvey Dent, he intends to
+                                clear the streets of crime that is poisoning the city. The cooperation is effective, but
+                                soon they...</p>
+                        </div>
+                        <div class="films__card card3">
+                            <i class="fa-solid fa-play"></i>
+                            <span class="films__span">1:53:45</span>
+                            <h3 class="films__info">The Gentlemen</h3>
+                            <p class="films__desc">One cunning American, from his student years, had been selling drugs,
+                                and now he came up with a scheme of illegal
+                                enrichment using the estates of an impoverished English aristocracy and made a very good
+                                fortune on ...</p>
+                        </div>
+                        <div class="films__card card4">
+                            <i class="fa-solid fa-play"></i>
+                            <span class="films__span">2:58:20</span>
+                            <h3 class="films__info">The Lord of the...</h3>
+                            <p class="films__desc">Tales of Middle-earth is a chronicle of the Great War for the Ring, a
+                                war that lasted more than one thousand years. The
+                                one who owned the Ring received power over all living creatures, but was obliged to
+                                serve evil...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <div class="opacity"></div>
+                <div class="video__content container">
+                    <img src="img/black.png" alt="">
+                    <p class="video__content-desc">After the events at the Leipzig-Halle airport, Natasha was overtaken
+                        by the mistakes of the past. The Red Room again
+                        made itself felt - a program to create Widows - professional killers and spies - just like her.
+                        Natasha decides once and
+                        for all to deal with people whose efforts she herself became a Widow.</p>
+                    <a href="#" class="video__content-btn">Watch now</a>
+                </div>
+                <div class="video__right">
+                    <video src="video/1.mp4" class="video__info" muted loop autoplay></video>
+                </div>
+            </section>
+            <section class="collection">
+                <div class="container">
+                    <h2 class="collection__title">Collections</h2>
+                    <div class="collection__cards">
+                        <div class="collection__card">
+                            <img src="img/col-1.jpg" alt="" class="collection__img">
+                            <div class="collection__content">
+                                <img src="img/arrow.svg" alt="" class="collection__icon">
+                                <h2 class="collection__info">All Marvel Films</h2>
+                            </div>
+                        </div>
+                        <div class="collection__card">
+                            <img src="img/col-2.jpg" alt="" class="collection__img">
+                            <div class="collection__content">
+                                <img src="img/arrow.svg" alt="" class="collection__icon">
+                                <h2 class="collection__info">Fast and the Furious</h2>
+                            </div>
+                        </div>
+                        <div class="collection__card">
+                            <img src="img/col-3.png" alt="" class="collection__img">
+                            <div class="collection__content">
+                                <img src="img/arrow.svg" alt="" class="collection__icon">
+                                <h2 class="collection__info">Star Wars</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="series">
+                <div class="container">
+                    <h2 class="collection__title series__title">Series</h2>
+                    <div class="series__cards">
+                        <div class="series__card series__card1">
+                            <img src="img/series-1.jpg" alt="" class="test">
+                            <div class="series__card-content">
+                                <h2 class="series__info">Game of Thrones</h2>
+                                <p class="series__desc">The time of prosperity is drawing to a close, and the summer,
+                                    which lasted almost a decade, is dying away. Around the
+                                    center of power of the Seven Kingdoms, the Iron Throne, a conspiracy is ripening,
+                                    and during this difficult time, the
+                                    king decides to seek support from his youth friend Eddard Stark. In a world where
+                                    everyone - from the king to the
+                                    mercenary - is eager for power, intrigues and is ready to stick a knife in the back,
+                                    there is ...</p>
+                                <a href="#" class="video__content-btn">Watch now</a>
+                            </div>
+                        </div>
+                        <div class="series__card series__card2">
+                            <img src="img/series-2.jpg" alt="">
+                            <div class="series__box">
+                                <img src="img/arrow.svg" alt="">
+                                <h2 class="series__info-title">Wanda Vision</h2>
+                            </div>
+                        </div>
+                        <div class="series__card">
+                            <img src="img/series-3.jpg" alt="">
+                            <div class="series__box">
+                                <img src="img/arrow.svg" alt="">
+                                <h2 class="series__info-title">Wanda Vision</h2>
+                            </div>
+                        </div>
+                        <div class="series__card">
+                            <img src="img/series-4.jpg" alt="">
+                            <div class="series__box">
+                                <img src="img/arrow.svg" alt="">
+                                <h2 class="series__info-title">The Great</h2>
+                            </div>
+                        </div>
+                        <div class="series__card gotham">
+                            <img src="img/series-5.jpg" alt="">
+                            <div class="series__box">
+                                <img src="img/arrow.svg" alt="">
+                                <h2 class="series__info-title">GOTHAM</h2>
+                            </div>
+                        </div>
+                        <div class="series__card">
+                            <img src="img/series-6.jpg" alt="">
+                            <div class="series__box">
+                                <img src="img/arrow.svg" alt="">
+                                <h2 class="series__info-title">The witcher</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__content">
+                <div class="footer__logo">
+                    <img src="img/Group 8.png" alt="">
+                    <img src="img/Group 8 (1).png" alt="">
+                </div>
+                <h2 class="footer__title">©ka.mun .2023</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
